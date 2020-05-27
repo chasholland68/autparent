@@ -1,0 +1,144 @@
+.navbar {
+    background-color: white;
+}
+
+.topLogo {
+    margin-left: 20px; 
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.title {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.navbar-end {
+    margin-top: 80px;
+}
+
+
+  body, html {
+    height: 100%;
+}
+
+/* The hero image for index */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/nashvilleSkyline.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.aboutImage {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+    
+
+     /* Set a specific height */
+     height: 50%;
+
+     /* Position and center the image to scale nicely on all screens */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.profile {
+    margin-left: 40px;
+}
+
+.sitesBody {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cardTitles {
+    text-align: center;
+}
+
+.cardMainTitle {
+    margin-left: 2px;
+}
+
+.zooImage {
+    width: 300px;
+    height: 100px;
+    margin-left: 350px;
+}
+
+form {
+    margin-top: 50px;
+    /* transition: all 4s ease-in-out; */
+
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+  }
+
+  .imageFooter {
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+  } */
